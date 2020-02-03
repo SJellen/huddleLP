@@ -1,7 +1,107 @@
 body {
   padding: 0;
   margin: 0;
+  width: 1440px;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  background-image: url(./images/bg-hero-desktop.svg);
+  background-color: #ebfbff;
+  height: 540px;
+}
+
+.header .logo1 {
+  margin-top: 40px;
+  margin-left: 60px;
+  width: 150px;
+}
+
+.header .btn {
+  width: 150px;
+  height: 34px;
+  background-color: white;
+  border: none;
+  -webkit-box-shadow: 0px 0px 5px rgba(211, 211, 211, 0.5);
+          box-shadow: 0px 0px 5px rgba(211, 211, 211, 0.5);
+  border-radius: 15px;
+  font-weight: 700;
+  float: right;
+  margin-right: 60px;
+  margin-top: 36px;
+}
+
+#top .image {
+  width: 525px;
+  float: right;
+  margin-top: -170px;
+  margin-right: 67px;
+  border: 1px solid red;
+}
+
+#top h1 {
+  width: 470px;
+  border: 1px solid red;
+  float: left;
+  margin-left: 61px;
+  margin-top: -100px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+#top .description {
+  width: 520px;
+  border: 1px solid red;
+  margin-top: -250px;
+  margin-left: 61px;
+}
+
+#top #button2 {
+  margin-left: 61px;
+  color: white;
+  width: 201px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  background-color: #ff52bf;
+}
+
+#middle {
+  background-color: Very Pale Cyan #ebfbff;
+}
+
+#middle #middle1 {
+  width: 925px;
+  height: 334px;
+  background-color: white;
+  margin-top: 225px;
+  margin-left: 260px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+#middle .image {
+  width: 310px;
+  float: right;
+  margin-top: 25px;
+  height: auto;
+  margin-right: 20px;
+}
+
+#middle h1 {
+  width: 300px;
+  font-family: 'Poppins', sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+  margin-left: 90px;
+  padding-top: 90px;
+}
+
+#middle p {
+  width: 429px;
+  margin-left: 90px;
+  font-size: medium;
 }
 /*# sourceMappingURL=style.css.map */
