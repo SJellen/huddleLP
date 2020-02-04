@@ -1,6 +1,6 @@
 body {
-  padding: 0;
-  margin: 0;
+  padding: 0 auto;
+  margin: 0 auto;
   width: 1440px;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
@@ -9,6 +9,8 @@ body {
 .header {
   background-image: url(./images/bg-hero-desktop.svg);
   background-color: #ebfbff;
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 540px;
 }
 
@@ -37,12 +39,10 @@ body {
   float: right;
   margin-top: -170px;
   margin-right: 67px;
-  border: 1px solid red;
 }
 
 #top h1 {
   width: 470px;
-  border: 1px solid red;
   float: left;
   margin-left: 61px;
   margin-top: -100px;
@@ -52,7 +52,6 @@ body {
 
 #top .description {
   width: 520px;
-  border: 1px solid red;
   margin-top: -250px;
   margin-left: 61px;
 }
@@ -195,7 +194,7 @@ body {
 #middle .hover h1 {
   font-size: x-large;
   margin-left: 105px;
-  padding-top: 55px;
+  padding-top: 45px;
 }
 
 #middle .hover #button3 {
