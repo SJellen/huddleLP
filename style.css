@@ -356,5 +356,33 @@ footer p a {
     margin-right: 15px;
     margin-top: 25px;
   }
+  #top .image {
+    width: 300px;
+    position: absolute;
+    top: 700px;
+  }
+  #top h1 {
+    width: 300px;
+    float: left;
+    margin-left: 61px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+  }
+  #top .description {
+    width: 340px;
+    margin-top: -450px;
+    margin-left: 20px;
+    text-align: center;
+  }
+  #top #button2 {
+    margin-left: 75px;
+    color: white;
+    width: 201px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: #ff52bf;
+  }
 }
 /*# sourceMappingURL=style.css.map */
