@@ -336,7 +336,7 @@ footer p a {
     background-color: #ebfbff;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 725px;
   }
   .header .logo1 {
     margin-top: 30px;
@@ -359,30 +359,161 @@ footer p a {
   #top .image {
     width: 300px;
     position: absolute;
-    top: 700px;
+    top: 640px;
+    margin-left: 40px;
   }
   #top h1 {
     width: 300px;
     float: left;
-    margin-left: 61px;
+    margin-left: 35px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: x-large;
+    text-align: center;
   }
   #top .description {
-    width: 340px;
-    margin-top: -450px;
-    margin-left: 20px;
+    width: 300px;
+    margin-top: -500px;
+    margin-left: 40px;
     text-align: center;
+    font-size: medium;
   }
   #top #button2 {
     margin-left: 75px;
+    margin-top: 10px;
     color: white;
-    width: 201px;
+    width: 230px;
     height: 40px;
-    border-radius: 15px;
+    font-weight: 600;
+    border-radius: 25px;
     border: none;
     background-color: #ff52bf;
+  }
+  #middle {
+    background-color: Very Pale Cyan #ebfbff;
+  }
+  #middle #middle1 {
+    width: 325px;
+    height: 334px;
+    background-color: white;
+    margin-top: 425px;
+    margin-left: 260px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  #middle #middle1 .image {
+    width: 310px;
+    float: right;
+    margin-top: 25px;
+    height: auto;
+    margin-right: 20px;
+  }
+  #middle #middle1 h1 {
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 90px;
+    padding-top: 90px;
+    color: gray;
+  }
+  #middle #middle1 p {
+    width: 429px;
+    margin-left: 90px;
+    font-size: medium;
+  }
+  #middle #middle2 {
+    width: 925px;
+    height: 334px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 260px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  #middle #middle2 .image {
+    width: 310px;
+    float: left;
+    margin-top: 65px;
+    height: auto;
+    margin-left: 40px;
+  }
+  #middle #middle2 h1 {
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    float: right;
+    padding-top: 90px;
+    margin-right: 175px;
+    margin-bottom: -5px;
+  }
+  #middle #middle2 p {
+    width: 450px;
+    float: right;
+    font-size: medium;
+    margin-right: 25px;
+    color: gray;
+  }
+  #middle #middle3 {
+    width: 925px;
+    height: 334px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 260px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  #middle #middle3 .image {
+    width: 310px;
+    float: right;
+    margin-top: 55px;
+    height: auto;
+    margin-right: 20px;
+  }
+  #middle #middle3 h1 {
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 90px;
+    padding-top: 90px;
+  }
+  #middle #middle3 p {
+    width: 429px;
+    margin-left: 90px;
+    font-size: medium;
+    color: gray;
+  }
+  #middle .hover {
+    position: absolute;
+    z-index: 2;
+    width: 600px;
+    height: 210px;
+    background-color: white;
+    margin-top: 120px;
+    margin-left: 421px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  #middle .hover h1 {
+    font-size: x-large;
+    margin-left: 105px;
+    padding-top: 45px;
+  }
+  #middle .hover #button3 {
+    color: white;
+    background-color: #ff52bf;
+    width: 230px;
+    height: 60px;
+    border-radius: 35px;
+    margin-left: 150px;
+    padding-left: 70px;
+    line-height: 3;
   }
 }
 /*# sourceMappingURL=style.css.map */
